@@ -12,3 +12,8 @@ Up = false;
 Down = false;
 Left = false;
 Right = false;
+
+hp = 10;
+
+swingDistance = 50;
+swingAngle = 120;
