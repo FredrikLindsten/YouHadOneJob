@@ -8,7 +8,7 @@
             "id": "e34714a4-151b-4e22-8e2c-11c13fbe8010",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
