@@ -1,7 +1,4 @@
-direction = point_direction(x, y, mouse_x, mouse_y);
-
-image_angle = direction;
-
+image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 Up = false;
 Down = false;
@@ -73,7 +70,7 @@ if (Left)
 {
 	hspeed -= Speed;
 	if(hspeed < -TopSpeed) {
-		hspeed = -5;
+		hspeed = -TopSpeed;
 	}
 }
 
@@ -81,7 +78,7 @@ if (Right)
 {
 	hspeed += Speed;
 	if(hspeed > TopSpeed) {
-		hspeed = 5;
+		hspeed = TopSpeed;
 	}
 }
 
@@ -89,7 +86,7 @@ if (Up)
 {
 	vspeed -= Speed;
 	if(vspeed < -TopSpeed) {
-		vspeed = -5;
+		vspeed = -TopSpeed;
 	}
 }
 
@@ -97,6 +94,6 @@ if (Down)
 {
 	vspeed += Speed;
 	if(vspeed > TopSpeed) {
-		vspeed = 5;
+		vspeed = TopSpeed;
 	}
 }
